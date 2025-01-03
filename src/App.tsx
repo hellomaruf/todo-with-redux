@@ -19,12 +19,15 @@ function App() {
 
   return (
     <>
-     <div className="">
+     {/* <div className="">
       <h2>Counter with redux</h2>
-      <button onClick={()=>handleIncrement(5)}>Increment by 5</button>
+      <button className='text-[red]' onClick={()=>handleIncrement(5)}>Increment by 5</button>
       <button onClick={()=>handleIncrement(1)}>Increment</button>
       <h3>{count}</h3>
       <button onClick={handleDecrement}>Decrement</button>
+     </div> */}
+     <div className="max-w-7xl mx-auto">
+      TaskMaster
      </div>
     </>
   )
